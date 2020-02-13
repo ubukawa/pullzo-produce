@@ -1,0 +1,25 @@
+{
+  host: 
+  port: 5432
+  user: postgres
+  password: 
+  database: database
+  dstPath: abc
+  relations: [
+    unhq_bnda05_cty
+    unhq_bndl05
+    unhq_phyp
+    unhq_popp
+  ]
+  blacklist: [
+    description
+    fid
+    fid_1
+    globalid
+    id
+    objectid
+    objectid_1
+    osm_id
+    pseudoarea
+  ]
+}
