@@ -2,14 +2,22 @@
   "name": "pullzo-produce",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": "git@github.com:ubukawa/pullzo-produce",
-  "author": "Taro Ubukawa",
+  "author": "",
   "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hfu/pullman/issues"
+  },
   "dependencies": {
     "better-queue": "^3.8.10",
-    "config": "^3.2.2",
+    "config": "^3.0.1",
     "glob": "^7.1.4",
     "hjson": "^3.1.2",
+    "ora": "^3.2.0",
+    "pg": "^7.9.0",
     "json-text-sequence": "^0.1.1"
   }
 }
