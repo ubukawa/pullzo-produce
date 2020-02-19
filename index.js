@@ -52,7 +52,7 @@ const pull = (pool, relation, cols, downstream) => {
         release()
         reject(err)
       } else {
-        const sql = `SELECT ${cols.toString()} FROM ${relation} LIMIT 100`
+        const sql = `SELECT ${cols.toString()} FROM ${relation}`
         const spinner = ora(sql).start()
         client.query(new Query(sql))
           .on('row', async row => {
